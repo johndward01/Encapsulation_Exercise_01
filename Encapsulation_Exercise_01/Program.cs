@@ -1,7 +1,7 @@
 ﻿using Encapsulation_Exercise_01;
 
 // TODO: Create a User class with private fields for username, password, and email
-// TODO: Give these 3 fields a default value "default user"
+// TODO: Give these 3 fields a default value "default"
 
 
 // TODO: Use a property to encapsulate the username field
