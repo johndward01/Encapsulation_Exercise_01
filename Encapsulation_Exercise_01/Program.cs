@@ -1,5 +1,5 @@
 ﻿// TODO: Create a User class with private fields for username, password, and email
-// TODO: Give these 3 fields a default value of an empty string  ""
+// TODO: Give these 3 fields a default value of: "default user"
 
 
 // TODO: Use a property to encapsulate the username field
