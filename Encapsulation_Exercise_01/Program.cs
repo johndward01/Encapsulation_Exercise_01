@@ -1,5 +1,5 @@
-﻿// TODO: Create a User class with private fields for username, password, and email.
-// Use methods to encapsulate these fields with validations.
+﻿// TODO: Create a User class with private fields for username, password, and email
+// TODO: Give these 3 fields a default value of an empty string  ""
 
 
 // TODO: Use a property to encapsulate the username field
