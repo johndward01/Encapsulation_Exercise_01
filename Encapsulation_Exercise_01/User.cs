@@ -11,18 +11,15 @@ internal class User
         get => _username;
         set
         {
+            _username = value;
             if (_username == null)
             {
                 throw new ArgumentNullException("The username must not be null");
             }
-            else if (_username.Length == 0)
+            if (_username.Length == 0)
             {
                 throw new ArgumentException("The username must not be empty");
-            }
-            else
-            {
-                _username = value;
-            }
+            }            
         }
     }
     public string Email 
@@ -30,13 +27,10 @@ internal class User
         get => _email;
         set
         {
+            _email = value;
             if (!_email.Contains('@'))
             {
                 throw new ArgumentException("The email must contain an @ symbol");
-            }
-            else
-            {
-                _email = value;
             }
         }
     }

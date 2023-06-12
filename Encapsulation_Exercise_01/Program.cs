@@ -1,7 +1,7 @@
 ﻿using Encapsulation_Exercise_01;
 
-// TODO: Create a User class with private fields for username, password, and email
-// TODO: Give these 3 fields a default value "default"
+// TODO: Create a User class with 3 private fields for username, password, and email
+// TODO: Initialize the 3 fields with an empty string ""
 
 
 // TODO: Use a property to encapsulate the username field
@@ -21,6 +21,8 @@
 // the password should contain at least 2 special symbols [!@#$%^&*()]
 // the password should contain at least 2 uppercase letters
 
+
 var user1 = new User();
 user1.UserName = "John";
 user1.Email = "123@gmail.com";
+user1.SetValidPassword("TestPa$$word");
