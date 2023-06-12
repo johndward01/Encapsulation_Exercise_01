@@ -1,4 +1,5 @@
-﻿// TODO: Create a User class with 3 private fields for username, password, and email
+﻿
+// TODO: Create a User class with 3 private fields for username, password, and email
 // TODO: Initialize the 3 fields with an empty string ""
 
 
@@ -18,3 +19,8 @@
 // the password should be at least 10 characters long
 // the password should contain at least 2 special symbols [!@#$%^&*()]
 // the password should contain at least 2 uppercase letters
+
+// TODO: Create a new User and give the 3 fields valid values
+
+
+// TODO: Display the 3 fields to the console
