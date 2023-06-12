@@ -21,8 +21,14 @@
 // the password should contain at least 2 special symbols [!@#$%^&*()]
 // the password should contain at least 2 uppercase letters
 
-
+// TODO: Create a new User and give the 3 fields valid values
 var user1 = new User();
 user1.UserName = "John";
 user1.Email = "123@gmail.com";
 user1.SetValidPassword("TestPa$$word");
+
+
+// TODO: Display the 3 fields to the console
+Console.WriteLine($"Username: {user1.UserName}");
+Console.WriteLine($"Email: {user1.Email}");
+Console.WriteLine($"Password: {user1.GetPassword()}");
